@@ -8,6 +8,11 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
+  <nav>
+    <%= link_to "Users", users_path %> |
+    <%= link_to "Books", books_path %> |
+    <%= link_to "User Books", user_books_path %>
+  </nav>
 
   <body>
     <%= yield %>
