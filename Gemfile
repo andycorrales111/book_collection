@@ -78,3 +78,9 @@ gem "concurrent-ruby", "1.3.4"
 gem "yaml_db"
 
 gem "seed_dump"
+
+# oauth
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
